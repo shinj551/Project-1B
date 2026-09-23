@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    background-color: #f5f3ed;
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: #111111;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    padding: 55px 40px;
+    border-bottom: 1px solid #111111;
+}
+
+header h1 {
+    font-size: 125px;
+    line-height: 0.82;
+    letter-spacing: -7px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+header p {
+    width: 60%;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.0;
+}
+
+.hero-photo {
+    width: 50%;
+    margin-top: 30px;
+}
+
+section {
+    padding: 60px 40px;
+    border-bottom: 1px solid #111111;
+}
+
+main section:first-child {
+    position: relative;
+    min-height: 500px;
+    padding: 45px 40px;
+    background-color: #e8ee9b;
+}
+
+main section:first-child h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+main section:first-child h3 {
+    font-size: 100px;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+
+main section:first-child p {
+    width: 30%;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.izzy-photo {
+    position: absolute;
+
+    top: 0;
+    left: 35%;
+
+    width: 30%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border-left: 1px solid #111111;
+    border-right: 1px solid #111111;
+}
+
+main section:first-child blockquote {
+    position: absolute;
+
+    top: 50%;
+    left: 70%;
+    
+    width: 26%;
+    transform: translateY(-50%);
+
+    margin: 0;
+    padding: 20px;
+
+    background-color: #f5c1cc;
+    border: 1px solid #111111;
+
+    font-size: 38px;
+    line-height: 1;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+section h2 {
+    font-size: 65px;
+    line-height: 0.9;
+    letter-spacing: -3px;
+
+    text-transform: uppercase;
+}
+
+section p {
+    max-width: 750px;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 60px;
+}
+
+.spot-photo {
+    width: 100%;
+    height: 260px;
+
+    object-fit: cover;
+    border: 1px solid #111111;
+    margin-bottom: 15px;
+}
+
+article h3 {
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #111111;
+    font-size: 22px;
+    line-height: 1;
+
+    text-transform: uppercase;
+}
+
+article p {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+article strong {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+article  blockquote {
+    padding: 15px 0;
+
+    border-top: 1px solid #111111;
+    border-bottom: 1px solid #111111;
+
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+section > blockquote {
+    padding: 30px;
+    background-color: #f5c1cc;
+    border: 1px solid #111111;
+
+    font-size: 38px;
+    line-height: 1;
+    font-weight: bold;
+    text-transform: uppercase ;
+}
+
+main section:last-child {
+    background-color: #f5c1cc;
+    min-height: 500px;
+}
+
+main section:last-child blockquote {
+    background: none;
+    border: none;
+
+    font-size: 75px;
+    line-height: 0.9;
+    letter-spacing: -3px;
+}
+
+footer {
+    padding: 40px;
+    border-top: 1px solid #111111;
+}
+
+footer p {
+    margin: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.map-button {
+    display: inline-block;
+
+    margin: 40px;
+    padding: 15px 25px;
+
+    background-color: #111111;
+    color: #f5f3ed;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.spot-navigation {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 30px 40px;
+    border-top: 1px solid #111111;
+}
+
+.spot-navigation a {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.back-home {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 1px solid #111111;
+
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
